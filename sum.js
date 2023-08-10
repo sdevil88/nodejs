@@ -1,29 +1,13 @@
-// const date = new Date();
-// console.log(date);
-// module.exports = date;
-
-
-const add = {
-    a:20,
-    b:30,
-    value:()=>{
-        
-        return add;
-    },
-    show:()=>{
-        let a=add.a+add.b;
-        console.log(a);
-    }
-
-};
-function run(){
-    add.value();
-add.show();
-}
-run();
-
-module.exports = run;
-
-
-
-
+// const a=5;
+// const b=6;
+// let c = a+b;
+// const sum=()=>{
+//     return c;
+// }
+// const show=()=>{
+//     const view = c;
+//    console.log(view);
+//    return view;
+// }
+// // show();
+// module.exports={show,sum}
