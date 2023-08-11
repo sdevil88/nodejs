@@ -28,18 +28,18 @@
 //qr generator
 
 
-const qrCode = require("qrcode");
-const http = require("http");
+// const qrCode = require("qrcode");
+// const http = require("http");
 
-http.createServer(async (req,res)=>{
-    res.writeHead(200,{'content-type': 'text/html'});
-    const data = "https://github.com"
-    const qrData = await qrCode.toDataURL(data);
-    const htmlData = `<img src="${qrData}"/>`
-    res.write(htmlData);
-    res.end();
-}).listen(8080)
-console.log("server is running ");
+// http.createServer(async (req,res)=>{
+//     res.writeHead(200,{'content-type': 'text/html'});
+//     const data = "https://github.com"
+//     const qrData = await qrCode.toDataURL(data);
+//     const htmlData = "<img src='"+qrData+"'/>"
+//     res.write(htmlData);
+//     res.end();
+// }).listen(8080)
+// console.log("server is running ");
 
 
 
