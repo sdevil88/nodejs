@@ -18,7 +18,7 @@ const transporter = nodemailer.createTransport({
     auth: {
       // TODO: replace `user` and `pass` values from <https://forwardemail.net>
       user: 'wwwghimiresagar88@gmail.com',
-      pass: 'qdbmhqptosivcdzb'
+      pass: 'qb'
     }
   });
 
